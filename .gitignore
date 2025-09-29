@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Data/outputs
+tracks.db
+backups/
+
+# Models and media
+*.pt
+*.onnx
+*.engine
+*.mp4
+*.avi
+*.mkv
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker/cache
+*.log

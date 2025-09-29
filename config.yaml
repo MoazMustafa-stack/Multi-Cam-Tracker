@@ -1,0 +1,10 @@
+cameras:
+  cam1: 0 # Default camera
+  #Path to videos or camera render or IP camera URL
+  
+
+model: "yolov8n.pt"   
+device: "cpu"         
+confidence: 0.5
+cosine_threshold: 0.35
+match_window_sec: 10
